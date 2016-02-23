@@ -1,0 +1,54 @@
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,sublime_text_3.desktop,eclipse.desktop,google-chrome.desktop
+recent=virtualbox.desktop,sublime_text_3.desktop,exo-terminal-emulator.desktop,libreoffice-calc.desktop,google-chrome.desktop,pavucontrol.desktop,steam.desktop,exo-file-manager.desktop,gparted.desktop,filezilla.desktop
+button-title=Menú de aplicaciones
+button-icon=/usr/share/icons/Faenza-Dark/status/22/system-devices-panel.png
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=true
+item-icon-size=2
+hover-switch-category=true
+category-icon-size=1
+load-hierarchy=false
+favorites-in-recent=true
+display-recent-default=true
+position-search-alternate=true
+position-commands-alternate=false
+menu-width=494
+menu-height=563
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=true
+command-switchuser=mdmflexiserver
+show-command-switchuser=true
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=menulibre
+show-command-menueditor=true
+search-actions=4
+
+[action0]
+name=Páginas del manual
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser http://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Abrir en terminal
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Abrir un URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+

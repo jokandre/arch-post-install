@@ -1,0 +1,12 @@
+Device=/dev/sda
+UseLabel=0
+Text=sda
+UpdatePeriod=500
+Statistics=1
+XferRate=40
+CombineRWdata=0
+MonitorBarOrder=0
+ReadColor=#5200B0
+WriteColor=#865300
+ReadWriteColor=#BFBFBF
+
