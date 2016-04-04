@@ -8,4 +8,6 @@ execute() {
 
   msg "Install Packages..."
   yaourt -S --noconfirm $(uninst-pkgs $(cat "packages/pkgs.list"))
+
+  sudo npm install -g bower cordova ionic
 }
