@@ -41,14 +41,13 @@ command=exo-open --launch WebBrowser http://en.wikipedia.org/wiki/%u
 regex=false
 
 [action2]
-name=Abrir en terminal
+name=Abrir no terminal
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
 
 [action3]
-name=Abrir un URI
+name=Abrir URI
 pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
-

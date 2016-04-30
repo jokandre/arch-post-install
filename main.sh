@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Characters for yes/no marks
 CHAR_YES="\\033[1;32m✔\\033[m"
@@ -41,7 +41,7 @@ unalias cp 2>/dev/null
 SESSIONDIR="$(pwd)/.session"
 mkdir -p "$SESSIONDIR"
 
-printf "\n\\033[;1m  Welcome to \\033[;1;36mDarkhogg's\\033[;1;33m Linux Post Install\\033[;1m Script\\033[m\n\n"
+printf "\n\\033[;1m  Welcome to \\033[;1;36mJokandre's\\033[;1;33m Arch Post Install\\033[;1m Script\\033[m\n\n"
 printf " This script is designed for a clean installation of \\033[1;32mManjaro \\033[33mXFCE \\033[35m0.8.9\\033[m.\n"
 printf " We'll run a few tests to check compatibility.\n\n"
 
