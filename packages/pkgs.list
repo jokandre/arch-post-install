@@ -1,12 +1,10 @@
-qbittorrent
 dropbox
-dropbox-cli
 skype
 google-chrome
 vlc
 kodi
 
-virtualbox virtualbox-guest-iso linux41-virtualbox-host-modules
+virtualbox virtualbox-guest-iso linux44-virtualbox-host-modules
 
 nodejs npm
 
@@ -16,6 +14,3 @@ screenfetch
 guake
 tmux
 zsh oh-my-zsh-git
-
-sublime-text-dev
-

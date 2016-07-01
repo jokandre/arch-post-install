@@ -2,8 +2,8 @@ name='Setup Packages'
 description='Performs initial configuration for some packages for the previous step'
 
 execute() {
-  msg "Configure Dropbox..."
-  dropbox autostart y
+#  msg "Configure Dropbox..."
+#  dropbox autostart y
 #  ln -sv "$HOME/dropbox" "$HOME/Dropbox"
 
 #  msg "Configure Sublime Text 3..."
@@ -18,6 +18,9 @@ execute() {
 
   #msg "Add Dhg Theme to theme directory..."
   #sudo cp -v "zsh/dhg.zsh-theme" "/usr/share/oh-my-zsh/themes/"
+
+  msg "Install NPM Global Packages..."
+  sudo npm install -g bower
 
   msg "Copy .zshrc to home..."
   sudo cp -v "zsh/default/.zshrc" "$HOME"
