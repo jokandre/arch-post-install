@@ -1,8 +1,9 @@
+# Terminator act like Guake
 ## Open
 ```
 gedit ~/.config/terminator/config
 ```
-Paste
+## Paste
 ```
 [global_config]
   always_on_top = True
