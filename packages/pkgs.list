@@ -3,6 +3,7 @@ google-chrome
 vlc
 kodi
 
+base-devel yaourt
 virtualbox virtualbox-guest-iso linux44-virtualbox-host-modules
 
 nodejs npm
