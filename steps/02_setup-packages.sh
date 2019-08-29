@@ -20,7 +20,7 @@ execute() {
   #sudo cp -v "zsh/dhg.zsh-theme" "/usr/share/oh-my-zsh/themes/"
 
   msg "Install NPM Global Packages..."
-  sudo npm install -g bower
+  sudo npm install -g bower ionic vue-cli 
 
   msg "Copy .zshrc to home..."
   sudo cp -v "zsh/default/.zshrc" "$HOME"

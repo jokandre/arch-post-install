@@ -1,16 +1,23 @@
+
+
 chrome-gnome-shell
-google-chrome
+chromium
 vlc
 kodi
 
-base-devel yaourt
-virtualbox virtualbox-guest-iso linux44-virtualbox-host-modules
-
+vscode
+pycharm
+git
+docker
+python-virtualenv
 nodejs npm
 
-htop
-screenfetch
 
 guake
 tmux
-zsh oh-my-zsh-git
+screenfetch
+
+
+virtualbox virtualbox-guest-iso linux419-virtualbox-host-modules
+cuda
+cudnn

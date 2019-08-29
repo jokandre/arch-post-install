@@ -7,6 +7,6 @@ execute() {
 #    yaourt fakeroot make automake autoconf wget curl git subversion)
 
   msg "Install Packages..."
-  yaourt -S --noconfirm $(uninst-pkgs $(cat "packages/pkgs.list"))
+  sudo pacman -S --noconfirm $(uninst-pkgs $(cat "packages/pkgs.list"))
 
 }
