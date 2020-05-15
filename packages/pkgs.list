@@ -12,6 +12,11 @@ docker
 python-virtualenv
 nodejs npm
 
+insomnia
+postman?
+dbeaver-ce
+
+
 
 guake
 tmux
