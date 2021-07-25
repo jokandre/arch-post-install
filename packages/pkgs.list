@@ -1,7 +1,4 @@
-
-
-chrome-gnome-shell
-chromium
+brave
 vlc
 kodi
 
@@ -9,20 +6,14 @@ vscode
 pycharm
 git
 docker
-python-virtualenv
 nodejs npm
 
 insomnia
-postman?
 dbeaver-ce
-
-
 
 guake
 tmux
 screenfetch
 
-
-virtualbox virtualbox-guest-iso linux419-virtualbox-host-modules
-cuda
+#virtualbox virtualbox-guest-iso linux419-virtualbox-host-modules
 cudnn
